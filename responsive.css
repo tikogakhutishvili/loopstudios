@@ -1,0 +1,180 @@
+@media screen and (min-width: 1440px) {
+    header {
+        background-image:  url(./assets/backgroundimg1.svg);
+        padding: 64px 165px 140px 165px ;
+        display: grid;
+        align-items: start;
+        justify-content: space-between;
+        background-size: cover;
+        height: 100vh;
+    }
+    .hide {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav {
+        font-size: 15px;
+        margin: 0;
+    }
+    #bttn {
+        display: none;
+    }
+    .responsive {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    h1 {
+        font-size: 72px;
+        line-height: 70px;
+        padding: 40px;
+        width: 55%;
+    }
+    .head2 {
+        justify-content: start;
+    }
+    .guyphoto {
+        height: 500px;
+        width: 729px;
+        z-index: -1;
+    }
+    .info {
+        width: 541px;
+        height: 317px;
+        z-index: 1;
+        background-color: white;
+        padding: 96px 0px 0px 96px;
+        position: relative;
+        left: 580px;
+        top: -317px;
+    }
+    .guyinf {
+        width: fit-content;
+        display: flex;
+        justify-content: start;
+    }
+    .info > p,
+    h2 {
+        text-align: left;
+    }
+    h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    main {
+        padding: 0px 164px 0px 164px;
+        width: 100%;
+        margin: 0;
+        align-items: start;
+    }
+    .nambtn {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 0px 20px 80px 20px;
+    }
+    .ph1 {
+        background-image: var(---linear), url(./assets/first.svg);
+    }
+    .ph2 {
+        background-image: var(---linear), url(./assets/second.svg);
+    }
+    .ph3 {
+        background-image: var(---linear), url(./assets/third.svg);
+    }
+    .ph4 {
+        background-image: var(---linear), url(./assets/fourth.svg);
+    }
+    .ph5 {
+        background-image: var(---linear), url(./assets/fifth.svg);
+    }
+    .ph6 {
+        background-image: var(---linear), url(./assets/sixth.png);
+    }
+    .ph7 {
+        background-image: var(---linear), url(./assets/seventh.svg);
+    }
+    .ph8 {
+        background-image: var(---linear), url(./assets/eighth.svg);
+    }
+    .ph {
+        width: 256px;
+        height: 450px;
+        padding: 0px 0px 32px 40px;
+        align-items: end;
+
+    }
+    .ph::after {
+        content: '';
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
+    }
+
+    h3 {
+        font-size:  32px;
+        line-height: 32px;
+    }
+    .photos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+    .main2{
+        width: 100%;
+        height: auto;
+
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flist {
+        flex-direction: row;
+        width: auto;
+        margin-top: 24px;
+        padding: 0;
+    }
+    .flist > nav {
+        margin-right: 32px;
+    }
+    .foot1 {
+        align-items: start;
+    }
+    .foot2 {
+        align-items: end;
+    }
+    .foot2 > img {
+        margin-top: 0;
+    }
+    .btn {
+        display: none;
+    }
+    .resp > button {
+        display: block;
+        width: 157px;
+        height: 40px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-bottom: 48px;
+    }
+    .resp {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2.4vh;
+        padding-right: 2.4vh;
+    }
+}

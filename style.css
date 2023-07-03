@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@media screen and (min-width: 375px) {
+    :root {
+        ---linear:linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%);
+    }
+    header {
+        background:  linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/backgroundimg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        padding: 24px 24px 0px 24px;
+        z-index: -1;
+        background-position: center ;
+        overflow: hidden;
+    }
+    .head1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .head1 > img {
+        cursor: pointer;
+    }
+    header > div {
+        z-index: 1;
+    }
+    nav {
+        color: #FFF;
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        width: fit-content;
+    }
+    nav:hover::before {
+        display: flex;
+        justify-content: center;
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-bottom: 2px solid white;
+    }
+
+    h1 {
+        color: #FFF;
+        font-size: 40px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 38px;
+        text-transform: uppercase;
+        border: 2px solid white;
+        padding: 24px;
+    }
+    .hide {
+        display: none;
+    }
+    .showbtn {
+        display: block;
+    }
+    .black {
+        background: black;
+    }
+
+    .show {
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        margin-top: 30vh;
+    }
+    .head2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .guyinf {
+        display: grid;
+        align-items: center;
+    }
+    .guyphoto {
+        margin-top: 72px;
+        margin-bottom: 48px;
+        background-image: url(./assets/guy.svg);
+        background-size: cover;
+        height: 224px;
+        width: 100%;
+    }
+    h2 {
+        color: #000;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .info > p {
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Alata';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.4993722140789032;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px;
+    }
+    .ph1 {
+        background-image: var(---linear), url(./assets/earth.svg);
+    }
+    .ph2 {
+        background-image: var(---linear), url(./assets/nightarcade.svg);
+    }
+    .ph3 {
+        background-image: var(---linear), url(./assets/soccerteam.svg);
+    }
+    .ph4 {
+        background-image: var(---linear), url(./assets/thegrid.svg);
+    }
+    .ph5 {
+        background-image: var(---linear), url(./assets/fromup.svg);
+    }
+    .ph6 {
+        background-image: var(---linear), url(./assets/borealis.svg);
+    }
+    .ph7 {
+        background-image: var(---linear), url(./assets/thecuriosity.svg);
+    }
+    .ph8 {
+        background-image: var(---linear), url(./assets/fisheye.svg);
+    }
+    .ph {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 42vh;
+        height: 120px;
+        margin-bottom: 24px;
+        
+    }
+    h3 {
+        color: #FFF;
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+    .main2 {
+        margin-top: 96px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photos {
+        display: grid;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .btn {
+        width: 157px;
+        height: 40px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-top: 34px;
+        margin-bottom: 96px;
+    }
+    .btn:hover {
+        background-color: #000;
+        color: white;
+        transition: 1s;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        padding: 52px ;
+    }
+
+    .flist > nav {
+        color: #FFF;
+        font-size: 15px;
+        font-family: 'Alata';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .foot2 > p {
+        color: #FFF;
+        font-size: 15px;
+        font-family: 'Alata';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0,5;
+    }
+    .foot1 , 
+.foot2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot1 > img,
+    .foot2 > img {
+        width: fit-content;
+    }
+    .flist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 32px;
+        padding-top: 48px;
+        width: 272px;
+    }
+    .foot2 > img {
+        margin-top: 28px;
+        margin-bottom: 16px;
+    }
+    .resp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resp > button {
+        display: none;
+    }
+    .foot2 > img:hover::before {
+        display: flex;
+        justify-content: center;
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-bottom: 2px solid white;
+    }
+
+}
